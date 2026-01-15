@@ -371,7 +371,7 @@ const App: React.FC = () => {
         <div className="header-top">
           <div className="header-title">
             <div className="header-logo">📊</div>
-            <span>Bill Of Exchange Report Generator</span>
+            <span>Inventory Report Generator</span>
           </div>
         </div>
       </header>
