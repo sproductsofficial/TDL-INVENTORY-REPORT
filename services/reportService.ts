@@ -84,7 +84,7 @@ const generatePDF = async (header: ReportHeader, items: LineItem[], totals: Tota
   // ===== 2. HEADER TEXT (More Compact) =====
   doc.setFont(fontName, 'bold');
   doc.setFontSize(18); // Reduced from 20
-  doc.text("Tusuka Trousers Ltd.", pageWidth / 2, topMargin + 4, { align: 'center' });
+  doc.text("Tusuka Denim Ltd.", pageWidth / 2, topMargin + 4, { align: 'center' });
   
   doc.setFontSize(9); // Reduced from 10
   doc.setFont(fontName, 'normal');
